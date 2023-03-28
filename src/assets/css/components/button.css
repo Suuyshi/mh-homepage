@@ -1,0 +1,26 @@
+.button-component {
+  padding: 15px 33px 16px 34px;
+  font-family: "Shanti", sans-serif;
+  background: none;
+  border: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+  text-align: center;
+  cursor: pointer;
+}
+
+.light-btn {
+  border: 1px solid #ffffff;
+  background: #ffffff;
+  color: #1a3143;
+}
+
+.dark-btn {
+  border: 1px solid #21436e;
+  background: #21436e;
+  color: #ffffff;
+}
