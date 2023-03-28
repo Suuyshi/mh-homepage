@@ -1,0 +1,11 @@
+.navbar-component {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px;
+}
+
+.navbar-component__main-content {
+  display: flex;
+  align-items: center;
+}

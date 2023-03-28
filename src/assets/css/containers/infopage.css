@@ -1,0 +1,30 @@
+.infopage {
+  background-color: #21436e;
+  padding: 0px 80px 125px;
+  display: flex;
+  justify-content: center;
+}
+
+.infocontent {
+  display: flex;
+}
+
+.infocontent__description--header {
+  font-family: "Alkatra", cursive;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 80px;
+  line-height: 88px;
+  color: #ffffff;
+}
+
+.infocontent__description--content {
+  font-family: "Shanti", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 36px;
+
+  color: #ffffff;
+  width: 56%;
+}

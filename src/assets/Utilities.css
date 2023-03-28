@@ -1,7 +1,8 @@
-:root {
-  background: red;
-}
 *,
 :root {
   box-sizing: border-box;
+}
+
+body {
+  margin: 0;
 }

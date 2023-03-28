@@ -1,14 +1,12 @@
 import "./assets/App.css";
-import Button from "./components/Button";
+import HomePage from "./containers/HomePage";
+import InfoPage from "./containers/InfoPage";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <Button buttonType={"dark-btn"} type="button">
-          BOOK NOW
-        </Button>
-      </header>
+    <div>
+      <HomePage />
+      <InfoPage />
     </div>
   );
 }
