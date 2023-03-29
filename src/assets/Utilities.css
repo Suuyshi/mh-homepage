@@ -3,10 +3,6 @@
   box-sizing: border-box;
 }
 
-body {
-  margin: 0;
-}
-
 :root ::-webkit-scrollbar {
   display: none;
 }
@@ -14,4 +10,8 @@ body {
 :root {
   -ms-overflow-style: none;
   scrollbar-width: none;
+}
+
+body {
+  margin: 0;
 }
