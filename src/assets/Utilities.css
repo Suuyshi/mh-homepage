@@ -6,3 +6,12 @@
 body {
   margin: 0;
 }
+
+:root ::-webkit-scrollbar {
+  display: none;
+}
+
+:root {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
