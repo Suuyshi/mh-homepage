@@ -9,11 +9,9 @@ const Navbar = () => {
   return (
     <div className="navbar-component">
       <div className="navbar-component__logo">
-        <img src={logo} />
+        <img src={logo} alt="logo" />
       </div>
       <div className="navbar-component__main-content">
-        {/* Weather component */}
-        {/* Whatsapp icon */}
         <Weather />
         <WhatsappIcon />
         <Button buttonType="light-btn" className="ms-5">

@@ -1,0 +1,17 @@
+.sliderGrid {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+}
+
+.sliderGrid__divider {
+  position: absolute;
+  top: 0;
+  left: 35%;
+  height: 760px;
+  width: 1px;
+  border: 1px dashed #c4c4c4;
+  transform: rotate(180deg);
+}

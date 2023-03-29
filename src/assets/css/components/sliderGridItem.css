@@ -1,4 +1,26 @@
+.sliderGridItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 30%;
+  height: 200px;
+  padding-bottom: 20px;
+  border-bottom: 1px dashed #c4c4c4;
+  margin-right: 100px;
+}
+
+.sliderGridItem__icon {
+  display: flex;
+  justify-content: center;
+}
+
+.sliderGridItem__icon > svg {
+  height: 50px;
+}
+
 .sliderGridItem__header {
+  display: flex;
+  justify-content: center;
   font-family: "Alkatra", cursive;
   font-style: normal;
   font-weight: 400;
@@ -10,6 +32,8 @@
 }
 
 .sliderGridItem__description {
+  display: flex;
+  justify-content: center;
   font-family: "Shanti", sans-serif;
   font-style: normal;
   font-weight: 600;
@@ -17,4 +41,5 @@
   line-height: 23px;
   text-align: center;
   color: #757575;
+  width: 75%;
 }

@@ -19,7 +19,7 @@ const MenuIcon1 = () => {
         x2="72"
         y2="0.75"
         stroke="white"
-        stroke-width="1.5"
+        strokeWidth="1.5"
       />
       <line
         x1="116"
@@ -27,7 +27,7 @@ const MenuIcon1 = () => {
         x2="72"
         y2="11.75"
         stroke="white"
-        stroke-width="1.5"
+        strokeWidth="1.5"
       />
       <line
         x1="116"
@@ -35,7 +35,7 @@ const MenuIcon1 = () => {
         x2="72"
         y2="22.75"
         stroke="white"
-        stroke-width="1.5"
+        strokeWidth="1.5"
       />
     </svg>
   );

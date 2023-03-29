@@ -1,4 +1,5 @@
 import React from "react";
+import Slider from "../../components/Slider";
 
 const SliderPage = () => {
   return (
@@ -13,6 +14,7 @@ const SliderPage = () => {
           stunning clubhouse
         </div>
       </div>
+      <Slider />
     </div>
   );
 };

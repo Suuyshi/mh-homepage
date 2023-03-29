@@ -1,7 +1,12 @@
 import React from "react";
+import SliderGrid from "./SliderGrid";
 
 const Slider = () => {
-  return <div>Slider</div>;
+  return (
+    <div>
+      <SliderGrid />
+    </div>
+  );
 };
 
 export default Slider;

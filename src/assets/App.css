@@ -7,6 +7,7 @@
 @import "./css/components/navbar.css";
 @import "./css/components/weather.css";
 @import "./css/components/sliderGridItem.css";
+@import "./css/components/sliderGrid.css";
 
 /* Containers */
 @import "./css/containers/homepage.css";
