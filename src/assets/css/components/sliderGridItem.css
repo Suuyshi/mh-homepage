@@ -7,6 +7,7 @@
   padding-bottom: 20px;
   border-bottom: 1px dashed #c4c4c4;
   margin-right: 100px;
+  cursor: pointer;
 }
 
 .sliderGridItem__icon {
@@ -42,4 +43,50 @@
   text-align: center;
   color: #757575;
   width: 75%;
+}
+
+.sliderGridItem__image {
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  left: 95%;
+}
+
+.selected-slide {
+  background-color: #2b29ad66;
+  border-radius: 10px;
+}
+
+.current-image-slide {
+  opacity: 1;
+  animation-name: oldSlideAnimation;
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+}
+
+.old-image-slide {
+  opacity: 0;
+  animation-name: currentSlideAnimation;
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes oldSlideAnimation {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes currentSlideAnimation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }

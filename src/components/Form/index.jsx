@@ -15,7 +15,7 @@ const Form = () => {
         <TextField placeholder={"Choose your budget"} id="budget" />
         <TextField placeholder={"Enter you message"} id="message" />
         <input type={"checkbox"} className="mt-5" id="consent" />
-        <label for="consent" className="ms-1">
+        <label htmlFor="consent" className="ms-1">
           {" "}
           I agree to the processing of personal data
         </label>

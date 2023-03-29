@@ -1,0 +1,18 @@
+.slider-container__dots {
+  display: flex;
+  position: absolute;
+  top: 93%;
+  left: 60%;
+}
+
+.slider-container__dot {
+  cursor: pointer;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  background: rgba(196, 196, 196, 0.4);
+}
+
+.selected-dot {
+  background: #1b5aac4d;
+}
