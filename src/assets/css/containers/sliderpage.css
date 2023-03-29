@@ -1,0 +1,34 @@
+.sliderpage {
+  padding: 120px 100px 125px;
+}
+
+.sliderpage__header--part1 {
+  font-family: "Alkatra", cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 38px;
+  color: #21436e;
+}
+
+.sliderpage__header--part2 {
+  font-family: "Alkatra", cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 104.035px;
+  line-height: 88px;
+  letter-spacing: -5.6px;
+  color: #21436e;
+}
+
+.sliderpage__description {
+  font-family: "Shanti", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  color: #21436e;
+  width: 50%;
+}
