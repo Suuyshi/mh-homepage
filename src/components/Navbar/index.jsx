@@ -14,6 +14,7 @@ const Navbar = () => {
       <div className="navbar-component__main-content">
         {/* Weather component */}
         {/* Whatsapp icon */}
+        <Weather />
         <WhatsappIcon />
         <Button buttonType="light-btn" className="ms-5">
           book now

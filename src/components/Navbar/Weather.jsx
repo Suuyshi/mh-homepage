@@ -1,34 +1,32 @@
+import axios from "axios";
 import React, { useEffect, useState } from "react";
-import { getWeather } from "../../services/weatherService";
+import { WEATHER_API_URL } from "../../constants/weatherApiUrl";
 
 const Weather = () => {
-  const [weatherObject, setWeatherObject] = useState({});
-  const [weatherIcon, setWeatherIcon] = useState();
+  const [weatherObject, setWeatherObject] = useState(null);
 
-  // const fetchWeather = () => {
-  //     getWeather()
-  //       .then((response) => {
-  //         setWeatherObject(response);
-  //         if (response) {
-  //           const iconCode = response.weather[0].icon;
-  //           setWeatherIcon(
-  //             "http://openweathermap.org/img/w/" + iconCode + ".png"
-  //           );
-  //         }
-  //       })
-  //       .catch((error) => console.log(error));
-  //   };
+  useEffect(() => {
+    async function getWeather() {
+      const response = await axios.get(WEATHER_API_URL);
+      setWeatherObject(response.data);
+    }
 
-  //   useEffect(() => {
-  //     fetchWeather();
+    getWeather();
+  }, []);
 
-  //     // setWeatherIcon(weatherObject.weather[0].icon);
-  //   }, []);
+  let weatherIconUrl = `https://openweathermap.org/img/w/${weatherObject?.weather[0].icon}.png`;
 
-  return (
-    <div className="weather-component">
-      <img src={weatherIcon} alt="weather icon" />
+  const convertToCelsius = () => {
+    return Math.ceil(weatherObject.main.temp - 273.15);
+  };
+
+  return weatherObject ? (
+    <div className="weather-component me-5">
+      <img src={weatherIconUrl} alt="weather icon" />
+      {convertToCelsius()} °
     </div>
+  ) : (
+    ""
   );
 };
 
