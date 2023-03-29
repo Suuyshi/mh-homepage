@@ -1,0 +1,43 @@
+.formpage {
+  display: flex;
+  padding: 80px 80px 125px;
+  position: relative;
+}
+
+.formpage > form {
+  width: 40%;
+  padding: 80px;
+}
+
+.formpage__title {
+  position: absolute;
+  top: 52%;
+  left: 17%;
+  font-family: "Shanti";
+  font-style: italic;
+  font-size: 30px;
+  line-height: 39px;
+
+  text-transform: capitalize;
+
+  color: #21436e;
+
+  transform: rotate(-90deg);
+}
+
+.formpage__header {
+  position: absolute;
+  top: 40%;
+  left: 16%;
+  font-family: "Alkatra", cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 88px;
+
+  letter-spacing: -2px;
+
+  color: #21436e;
+
+  transform: rotate(-90deg);
+}

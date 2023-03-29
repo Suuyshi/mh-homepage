@@ -8,8 +8,11 @@
 @import "./css/components/weather.css";
 @import "./css/components/sliderGridItem.css";
 @import "./css/components/sliderGrid.css";
+@import "./css/components/textField.css";
+@import "./css/components/form.css";
 
 /* Containers */
 @import "./css/containers/homepage.css";
 @import "./css/containers/infopage.css";
 @import "./css/containers/sliderpage.css";
+@import "./css/containers/formpage.css";

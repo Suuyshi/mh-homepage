@@ -1,0 +1,37 @@
+.text-field-component {
+  width: 100%;
+}
+
+.text-field-component > input {
+  color: #0e223b;
+  opacity: 0.8;
+}
+
+.text-field-component__input {
+  box-sizing: border-box;
+  background-color: transparent;
+  border: 0;
+  max-width: 100%;
+  width: 100%;
+  border-bottom: 1px solid #6464644d;
+  padding: 20px 5px;
+}
+
+.text-field-component__input:hover {
+  border-bottom: 1px solid #1b5aac4d;
+}
+
+.input-hovered {
+  border-bottom: 1px solid #1b5aac4d;
+  padding-left: 20px;
+}
+
+.text-field-component__input:focus {
+  outline: 0;
+  color: #21436e;
+}
+
+::placeholder {
+  color: #21436e;
+  font-style: italic;
+}
