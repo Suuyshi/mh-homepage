@@ -3,7 +3,7 @@ import MenuIcon1 from "../../assets/icons/MenuIcon1";
 
 const Menu = () => {
   return (
-    <div className="ms-5">
+    <div className="menu-icon ms-5">
       <MenuIcon1 />
     </div>
   );

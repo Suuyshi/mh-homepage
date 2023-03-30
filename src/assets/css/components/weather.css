@@ -3,3 +3,7 @@
   align-items: center;
   color: #ffffff;
 }
+
+.weather-component > img:hover {
+  transform: scale(1.33);
+}

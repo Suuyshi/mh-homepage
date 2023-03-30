@@ -9,3 +9,15 @@
   display: flex;
   align-items: center;
 }
+
+.navbar-component__clickable {
+  cursor: pointer;
+}
+
+.navbar-component__clickable:hover > svg > path {
+  fill: #2471d6;
+}
+
+.navbar-component__clickable:hover > svg > circle {
+  stroke: #2471d6;
+}

@@ -13,11 +13,16 @@ const Navbar = () => {
       </div>
       <div className="navbar-component__main-content">
         <Weather />
-        <WhatsappIcon />
+        <div className="navbar-component__clickable">
+          <WhatsappIcon />
+        </div>
+
         <Button buttonType="light-btn" className="ms-5">
           book now
         </Button>
-        <Menu />
+        <div className="navbar-component__clickable">
+          <Menu />
+        </div>
       </div>
     </div>
   );

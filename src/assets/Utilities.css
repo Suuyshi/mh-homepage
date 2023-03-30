@@ -15,3 +15,14 @@
 body {
   margin: 0;
 }
+
+.spinner-page {
+  background-size: cover;
+  background-color: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 0%,
+    #21436e 85.42%
+  );
+  background-image: url("./images/Makadi_Heights_Render\ 1.png");
+  height: 100vh;
+}
