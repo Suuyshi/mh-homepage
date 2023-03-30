@@ -26,7 +26,16 @@ const Slider = () => {
   };
 
   return (
-    <div className="slider-container">
+    <div
+      className="slider-container"
+      data-aos="fade-left"
+      data-aos-offset="10"
+      data-aos-delay="50"
+      data-aos-duration="1000"
+      data-aos-mirror="true"
+      data-aos-once="true"
+      data-aos-anchor-placement="top-center"
+    >
       <SliderGrid
         currentSlide={currentSlide}
         setCurrentSlide={setCurrentSlide}

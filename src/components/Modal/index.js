@@ -6,10 +6,6 @@ import ModalInfoList from "../ModalInfo";
 const FormModal = ({ setShow, show, setFormValues, formValues }) => {
   const handleClose = () => setShow(false);
 
-  useEffect(() => {
-    console.log("test", formValues);
-  }, [formValues]);
-
   return (
     <Modal show={show} onHide={handleClose}>
       <Modal.Header closeButton>

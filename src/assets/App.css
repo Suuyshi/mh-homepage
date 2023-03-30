@@ -12,6 +12,7 @@
 @import "./css/components/form.css";
 @import "./css/components/slider.css";
 @import "./css/components/modalInfoItem.css";
+@import "./css/components/header.css";
 
 /* Containers */
 @import "./css/containers/homepage.css";

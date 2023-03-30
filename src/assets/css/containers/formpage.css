@@ -14,6 +14,7 @@
   top: 52%;
   left: 17%;
   font-family: "Shanti";
+  /* font-family: "Sharp Sans No1 Medium"; */
   font-style: italic;
   font-size: 30px;
   line-height: 39px;
@@ -29,7 +30,8 @@
   position: absolute;
   top: 40%;
   left: 16%;
-  font-family: "Alkatra", cursive;
+  /* font-family: "Alkatra", cursive; */
+  font-family: "Diodrum Arabic";
   font-style: normal;
   font-weight: 400;
   font-size: 80px;

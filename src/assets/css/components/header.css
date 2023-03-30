@@ -1,0 +1,31 @@
+.header__part1 {
+  font-family: "Diodrum Arabic";
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 88px;
+  color: #ffffff;
+}
+
+.header__part2 {
+  font-family: "Diodrum Arabic";
+  font-weight: 600;
+  font-size: 80px;
+  line-height: 88px;
+  color: #ffffff;
+}
+
+.sliderpage > .sliderpage__leftpart > .sliderpage__header > .header__part1 {
+  font-family: "Diodrum Arabic";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 38px;
+
+  color: #21436e;
+
+  mix-blend-mode: normal;
+}
+
+.sliderpage > .sliderpage__leftpart > .sliderpage__header > .header__part2 {
+  color: #21436e;
+}

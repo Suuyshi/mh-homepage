@@ -7,6 +7,8 @@ import schema from "../../validation schemas/formSchema";
 import TextField from "../../components/TextField";
 import Button from "../Button";
 
+import "aos/dist/aos.css";
+
 const Form = ({
   show,
   setShow,
@@ -21,7 +23,16 @@ const Form = ({
 }) => {
   return (
     <>
-      <form onSubmit={handleSubmit}>
+      <form
+        onSubmit={handleSubmit}
+        data-aos="fade-up"
+        data-aos-offset="10"
+        data-aos-delay="30"
+        data-aos-duration="1000"
+        data-aos-mirror="true"
+        data-aos-once="true"
+        data-aos-anchor-placement="top-center"
+      >
         <div className="form__title">
           Enter your details and our representative will get back to you shortly
         </div>
@@ -33,6 +44,13 @@ const Form = ({
             value={values.name}
             errorToggle={touched.name && errors.name ? true : false}
             errorText={errors.name}
+            data-aos="fade-up"
+            data-aos-offset="10"
+            data-aos-delay="30"
+            data-aos-duration="1000"
+            data-aos-mirror="true"
+            data-aos-once="true"
+            data-aos-anchor-placement="top-center"
           />
           <TextField
             placeholder={"Email ID"}

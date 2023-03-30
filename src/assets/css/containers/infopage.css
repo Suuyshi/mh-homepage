@@ -10,9 +10,8 @@
 }
 
 .infocontent__description--header {
-  font-family: "Alkatra", cursive;
-  /*font-family: "Diodrum Arabic", "Light";*/
-  font-style: normal;
+  /* font-family: "Alkatra", cursive; */
+  font-family: "Diodrum Arabic";
   font-weight: 500;
   font-size: 80px;
   line-height: 88px;
@@ -20,11 +19,12 @@
 }
 
 .infocontent__description--content {
-  font-family: "Shanti", sans-serif;
+  /* font-family: "Shanti", sans-serif; */
+  font-family: "Sharp Sans No1 Medium";
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
   line-height: 36px;
   color: #ffffff;
-  width: 56%;
+  width: 70%;
 }

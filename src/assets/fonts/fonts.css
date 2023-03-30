@@ -1,11 +1,11 @@
 @font-face {
-  font-family: "Diodrum Arabic", "Light";
+  font-family: "Diodrum Arabic";
   src: url("Indian\ Type\ Foundry\ -\ Diodrum\ Arabic\ Light.otf")
     format("opentype");
 }
 
 @font-face {
-  font-family: "Diodrum Arabic", "Medium";
+  font-family: "Diodrum Arabic";
   src: url("Indian\ Type\ Foundry\ -\ Diodrum\ Arabic\ Medium.otf")
     format("opentype");
 }
