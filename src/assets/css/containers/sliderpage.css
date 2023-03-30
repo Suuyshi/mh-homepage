@@ -36,3 +36,10 @@
   color: #21436e;
   width: 30%;
 }
+
+@media (max-width: 600px) {
+  .sliderpage__description {
+    font-size: 13px;
+    width: 100%;
+  }
+}

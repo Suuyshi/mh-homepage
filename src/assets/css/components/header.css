@@ -29,3 +29,15 @@
 .sliderpage > .sliderpage__leftpart > .sliderpage__header > .header__part2 {
   color: #21436e;
 }
+
+@media (max-width: 600px) {
+  .header__part1 {
+    width: 100%;
+    font-size: 2.3rem;
+  }
+
+  .header__part2 {
+    width: 100%;
+    font-size: 3.3rem;
+  }
+}

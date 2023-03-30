@@ -43,3 +43,31 @@
 
   transform: rotate(-90deg);
 }
+
+@media (max-width: 600px) {
+  .formpage {
+    flex-direction: column;
+  }
+
+  .formpage > form {
+    display: none;
+  }
+
+  .formpage__title {
+    position: relative;
+    transform: rotate(0deg);
+    font-size: 1rem;
+  }
+
+  .formpage__header {
+    font-size: 2rem;
+    position: relative;
+    transform: rotate(0deg);
+  }
+  .formpage > img {
+    margin-left: 45px;
+    margin-top: 20px;
+    max-width: 230px;
+    max-height: 300px;
+  }
+}

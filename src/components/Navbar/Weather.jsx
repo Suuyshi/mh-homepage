@@ -21,7 +21,7 @@ const Weather = () => {
   };
 
   return weatherObject ? (
-    <div className="weather-component me-5">
+    <div className="weather-component me-5 mt-2 text-nowrap">
       <img src={weatherIconUrl} alt="weather icon" />
       {convertToCelsius()} °
     </div>

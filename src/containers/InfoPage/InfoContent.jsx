@@ -55,10 +55,10 @@ const InfoContent = () => {
           data-aos-once="true"
           data-aos-anchor-placement="top-center"
         >
-          <Button buttonType="light-btn">Download brochure</Button>
-          <Button buttonType="light-btn" className="ms-5">
-            Show Master plan
+          <Button buttonType="light-btn" className="me-5 mb-3">
+            Download brochure
           </Button>
+          <Button buttonType="light-btn">Show Master plan</Button>
         </div>
       </div>
     </div>

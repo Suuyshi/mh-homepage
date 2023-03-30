@@ -9,22 +9,34 @@
   display: flex;
 }
 
-.infocontent__description--header {
-  /* font-family: "Alkatra", cursive; */
-  font-family: "Diodrum Arabic";
-  font-weight: 500;
-  font-size: 80px;
-  line-height: 88px;
-  color: #ffffff;
-}
-
 .infocontent__description--content {
   /* font-family: "Shanti", sans-serif; */
   font-family: "Sharp Sans No1 Medium";
   font-style: normal;
   font-weight: 400;
-  font-size: 22px;
-  line-height: 36px;
+  font-size: 1rem;
+  line-height: 3rem;
   color: #ffffff;
   width: 70%;
+}
+
+@media (max-width: 600px) {
+  .infocontent {
+    flex-direction: column-reverse;
+  }
+  .infocontent > img {
+    margin-left: 45px;
+    margin-top: 20px;
+    max-width: 230px;
+    max-height: 300px;
+  }
+
+  .infocontent__description--content {
+    font-size: 13px;
+    width: 100%;
+  }
+
+  .infocontent__description--actions {
+    width: 100%;
+  }
 }

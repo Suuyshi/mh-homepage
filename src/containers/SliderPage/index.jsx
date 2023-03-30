@@ -3,6 +3,7 @@ import Slider from "../../components/Slider";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
+import SliderResponsive from "../../components/Slider/SliderResponsive";
 
 const SliderPage = () => {
   useEffect(() => {
@@ -38,6 +39,7 @@ const SliderPage = () => {
           stunning clubhouse
         </div>
       </div>
+      <SliderResponsive />
       <Slider />
     </div>
   );

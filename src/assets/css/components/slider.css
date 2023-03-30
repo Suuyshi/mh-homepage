@@ -16,3 +16,13 @@
 .selected-dot {
   background: #1b5aac4d;
 }
+
+.slider-container-responsive {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .slider-container {
+    display: none;
+  }
+}

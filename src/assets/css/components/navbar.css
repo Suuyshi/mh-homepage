@@ -21,3 +21,19 @@
 .navbar-component__clickable:hover > svg > circle {
   stroke: #2471d6;
 }
+
+@media (max-width: 600px) {
+  .navbar-component {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .navbar-component__main-content {
+    margin-top: 20px;
+    justify-content: center;
+  }
+
+  .menu-icon {
+    display: none;
+  }
+}
