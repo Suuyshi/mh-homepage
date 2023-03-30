@@ -11,6 +11,7 @@
 @import "./css/components/textField.css";
 @import "./css/components/form.css";
 @import "./css/components/slider.css";
+@import "./css/components/modalInfoItem.css";
 
 /* Containers */
 @import "./css/containers/homepage.css";

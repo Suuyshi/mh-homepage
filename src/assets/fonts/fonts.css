@@ -1,3 +1,30 @@
+@font-face {
+  font-family: "Diodrum Arabic", "Light";
+  src: url("Indian\ Type\ Foundry\ -\ Diodrum\ Arabic\ Light.otf")
+    format("opentype");
+}
+
+@font-face {
+  font-family: "Diodrum Arabic", "Medium";
+  src: url("Indian\ Type\ Foundry\ -\ Diodrum\ Arabic\ Medium.otf")
+    format("opentype");
+}
+
+@font-face {
+  font-family: "Sharp Sans No1", "Book";
+  src: url("Sharp\ Sans\ No1\ -\ Book.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Sharp Sans No1", "Light";
+  src: url("Sharp\ Sans\ No1\ -\ Light.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Sharp Sans No1", "Medium";
+  src: url("Sharp\ Sans\ No1\ -\ Medium.otf") format("opentype");
+}
+
 @import url("https://fonts.googleapis.com/css2?family=Shanti&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Alkatra&display=swap");
