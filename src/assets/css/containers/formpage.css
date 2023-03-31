@@ -1,6 +1,6 @@
 .formpage {
   display: flex;
-  padding: 80px 80px 125px;
+  padding: 0px 80px 0px 0px;
   position: relative;
 }
 
@@ -12,7 +12,7 @@
 .formpage__title {
   position: absolute;
   top: 52%;
-  left: 17%;
+  left: 14%;
   font-family: "Shanti";
   /* font-family: "Sharp Sans No1 Medium"; */
   font-style: italic;
@@ -29,7 +29,7 @@
 .formpage__header {
   position: absolute;
   top: 40%;
-  left: 16%;
+  left: 12%;
   /* font-family: "Alkatra", cursive; */
   font-family: "Diodrum Arabic";
   font-style: normal;
@@ -42,6 +42,10 @@
   color: #21436e;
 
   transform: rotate(-90deg);
+}
+
+.formpage > img {
+  z-index: -1;
 }
 
 @media (max-width: 600px) {

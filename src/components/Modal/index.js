@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import Modal from "react-bootstrap/Modal";
-import Button from "react-bootstrap/Button";
+import Button from "../Button";
 import ModalInfoList from "../ModalInfo";
 
 const FormModal = ({ setShow, show, setFormValues, formValues }) => {
@@ -28,8 +28,7 @@ const FormModal = ({ setShow, show, setFormValues, formValues }) => {
         </div>
       </Modal.Body>
       <Modal.Footer>
-        <Button onClick={handleClose}>Confirm</Button>
-        <Button variant="secondary" onClick={handleClose}>
+        <Button buttonType="dark-btn" onClick={handleClose}>
           Close
         </Button>
       </Modal.Footer>
