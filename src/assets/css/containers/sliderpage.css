@@ -38,6 +38,10 @@
 }
 
 @media (max-width: 600px) {
+  .sliderpage {
+    padding-left: 20px;
+  }
+
   .sliderpage__description {
     font-size: 13px;
     width: 100%;

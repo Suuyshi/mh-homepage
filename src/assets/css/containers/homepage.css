@@ -11,6 +11,7 @@
 
 @media (max-width: 600px) {
   .homepage {
-    height: auto;
+    height: 50%;
+    background-color: none;
   }
 }

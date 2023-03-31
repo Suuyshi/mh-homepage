@@ -25,4 +25,14 @@
   .slider-container {
     display: none;
   }
+
+  .slider-container-responsive {
+    display: block;
+  }
+
+  .slider-container-responsive__dots {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+  }
 }

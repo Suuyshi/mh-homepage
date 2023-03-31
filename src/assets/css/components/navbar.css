@@ -26,6 +26,7 @@
   .navbar-component {
     flex-direction: column;
     justify-content: center;
+    border-bottom: 1px solid #21436e;
   }
 
   .navbar-component__main-content {

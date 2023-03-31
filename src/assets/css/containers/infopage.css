@@ -24,6 +24,7 @@
   .infocontent {
     flex-direction: column-reverse;
   }
+
   .infocontent > img {
     margin-left: 45px;
     margin-top: 20px;
