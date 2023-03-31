@@ -8,3 +8,9 @@
   background-image: url("../../images/Makadi_Heights_Render\ 1.png");
   height: 100vh;
 }
+
+@media (max-width: 600px) {
+  .homepage {
+    height: auto;
+  }
+}
