@@ -14,7 +14,7 @@ const Slider = () => {
     for (let i = 0; i < SLIDER_ITEMS.length; i++) {
       content.push(
         <div
-          className={`slider-responsive-container__dot ms-1 ${
+          className={`slider-container__dot ms-1 ${
             currentSlide === i + 1 ? "selected-dot" : ""
           }`}
           key={i}
